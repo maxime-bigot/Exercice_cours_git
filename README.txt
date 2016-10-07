@@ -2,4 +2,4 @@ Exercice pour le cours Git/Github
 
 <3 OpenClassroom
 
-dans ce repositery, je vais ajouter des fichiers HTML et CSS, attendez les prochains commit pour voir quelquechose :)
+Voici une petite animation trÃs simple en JS qui nous permet de changer des propriÃtÃs CSS de plusieurs divs en passant la souris au dessus d'une autre div, enjoy :)
