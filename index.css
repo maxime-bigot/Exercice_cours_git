@@ -1,10 +1,21 @@
 div {
-width:50px;
-height:50px;
 }
 #controleur {
 background-color: black;
+width:50px;
+height:50px;
 }
 .cible {
 background-color: #999;
+width:50px;
+height:50px;
+}
+
+#pres
+{
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+	margin: auto;
+	margin-top: 20px;
 }

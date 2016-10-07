@@ -8,17 +8,23 @@
 	</head>
 
 	<body>
-		<div id="controleur" onmouseover="mouseOver('.cible')" onmouseout="mouseOut('.cible')"></div>
-		<div class="cible"></div>
-		<div class="cible"></div>
+		
+		<div id="pres">
+			<div id="controleur" onmouseover="mouseOver('.cible')" onmouseout="mouseOut('.cible')"></div>
+			<div class="cible blue"></div>
+			<div class="cible purple"></div>
+		</div>
 
 		<script type="text/javascript">
 function mouseOver(arg)
 {
 var queryAll = document.querySelectorAll(arg)
 
-queryAll[0].style.backgroundColor = "red";
-queryAll[1].style.backgroundColor = "red";
+queryAll[0].style.backgroundColor = "blue";
+queryAll[0].style.transitionDuration = "1s";
+
+queryAll[1].style.backgroundColor = "purple";
+queryAll[1].style.transitionDuration = "1s";
 }
 function mouseOut(arg)
 {
